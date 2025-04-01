@@ -15,7 +15,7 @@ crud-example/
 
 ## Instalaciones
 
-mkdir crud-example
-cd crud-example
-npm init -y
-npm install express sequelize sqlite3 body-parser
+mkdir crud-example  
+cd crud-example  
+npm init -y   
+npm install express sequelize sqlite3 body-parser  
