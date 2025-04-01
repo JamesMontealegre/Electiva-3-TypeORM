@@ -1,16 +1,17 @@
 ## Arquitectura
 
-crud-example/
-│
-├── models/
-│ └── user.model.js
-│
-├── routes/
-│ └── user.routes.js
-│
-├── database.js
-├── server.js
-├── package.json
+crud-example/  
+│  
+├── models/  
+│ └── user.model.js  
+│  
+├── routes/  
+│ └── user.routes.js  
+│  
+├── database.js  
+├── server.js  
+├── package.json  
+
 
 ## Instalaciones
 
