@@ -4,6 +4,11 @@ import { AppDataSource } from "../data-source";
 import { User } from "../entity/user";
 
 const router = Router();
+
+/**
+ * Obtiene el repositorio de la entidad User desde la fuente de datos.
+ * El repositorio permite ejecutar operaciones como save, find, delete, etc. sobre la tabla User.
+ */
 const userRepo = AppDataSource.getRepository(User);
 
 router.post("/", async (req, res) => {
